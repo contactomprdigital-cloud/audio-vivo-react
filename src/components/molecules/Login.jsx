@@ -1,0 +1,43 @@
+import { useState } from "react";
+import Form from "react-bootstrap/Form";
+import Input from "../atoms/Input";
+import Boton from "../atoms/Boton";
+
+function Login() {
+  const [correo, setCorreo] = useState("");
+  const [password, setPassword] = useState("");
+
+  function manejarEnvio(e) {
+    e.preventDefault();
+  }
+
+  return (
+    <Form id="form-login" onSubmit={manejarEnvio}>
+      <Form.Group className="mb-3" controlId="correo">
+        <Form.Label>Correo electrónico</Form.Label>
+        <Input
+          id="correo"
+          tipo="email"
+          valor={correo}
+          onChange={(e) => setCorreo(e.target.value)}
+          placeholder="ejemplo@correo.cl"
+        />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="password">
+        <Form.Label>Contraseña</Form.Label>
+        <Input
+          id="password"
+          tipo="password"
+          valor={password}
+          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Mínimo 12 caracteres"
+        />
+      </Form.Group>
+
+      <Boton tipo="submit">Ingresar</Boton>
+    </Form>
+  );
+}
+
+export default Login;
