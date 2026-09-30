@@ -1,4 +1,4 @@
-import './styles/ContadorCantidad.css'
+import './ContadorCantidad.css'
 
 export function ContadorCantidad({cantidad, min = 1, max = Infinity, onCambiar}){
     return(
