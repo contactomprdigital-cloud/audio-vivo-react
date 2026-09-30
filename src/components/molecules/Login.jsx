@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Form from "react-bootstrap/Form";
-import Input from "../atoms/Input";
-import Boton from "../atoms/Boton";
+import Input from "../atoms/Input/Input";
+import Boton from "../atoms/Boton/Boton";
 
 function Login() {
   const [correo, setCorreo] = useState("");
