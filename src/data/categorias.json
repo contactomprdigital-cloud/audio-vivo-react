@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Guitarras Acústicas",
+    "slug": "guitarras-acusticas",
+    "descripcion": "Folk, Dreadnought, Clásica, Electroacústica, Niños",
+    "imagen": "/img/guitarraAcustica.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Guitarras Eléctricas",
+    "slug": "guitarras-electricas",
+    "descripcion": "Stratocaster, Telecaster, Les Paul, SG, Semi-hollow, Signature",
+    "imagen": "/img/guitarras-electricas/guitarraElectrica.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Bajos Eléctricos",
+    "slug": "bajos-electricos",
+    "descripcion": "Precision, Jazz, Activo, Acústico, Fretless",
+    "imagen": "/img/bajo-electrico.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Baterías",
+    "slug": "baterias",
+    "descripcion": "Acústica, Electrónica, Cajas, Platillos, Stands",
+    "imagen": "/img/bateria.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Teclados y Pianos",
+    "slug": "teclados-y-pianos",
+    "descripcion": "Digital, Sintetizador, MIDI Controller, Órgano",
+    "imagen": "/img/teclado.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Amplificadores",
+    "slug": "amplificadores",
+    "descripcion": "Guitarra combo, Guitarra cabezal, Bajo, Acústico, Teclado",
+    "imagen": "/img/amplificadores.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Micrófonos",
+    "slug": "microfonos",
+    "descripcion": "Dinámico, Condensador, USB, Ribbon, Lavalier",
+    "imagen": "/img/microfonos.jpeg"
+  },
+  {
+    "id": 8,
+    "nombre": "Pedales de Efectos",
+    "slug": "pedales-de-efectos",
+    "descripcion": "Distorsión, Overdrive, Fuzz, Reverb, Delay, Chorus, Multi-FX",
+    "imagen": "/img/pedal-efecto.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Accesorios",
+    "slug": "accesorios",
+    "descripcion": "Cuerdas, Púas, Soportes, Cables, Correas, Afinadores",
+    "imagen": "/img/puas.webp"
+  },
+  {
+    "id": 10,
+    "nombre": "Estudio y Grabación",
+    "slug": "estudio-y-grabacion",
+    "descripcion": "Interfaces, Auriculares, Monitores, Pop filters, DAW",
+    "imagen": "/img/audifonos-estudio.jpg"
+  }
+]
