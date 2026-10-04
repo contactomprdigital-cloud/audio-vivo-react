@@ -1,0 +1,36 @@
+/* Barra de navegación: los colores y el estilo de los enlaces vienen de style.css del Parcial 1. */
+.navbar-sonido-vivo {
+  background-color: #d27300;
+  padding: 10px 20px;
+}
+
+.navbar-sonido-vivo .navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: normal;
+}
+
+.navbar-sonido-vivo .nav-link {
+  color: #ecf0f1;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.navbar-sonido-vivo .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ecf0f1;
+}
+
+.icono-carrito {
+  width: 24px;
+  height: 24px;
+}
+
+.contador-carrito {
+  margin-left: 6px;
+  font-weight: bold;
+}

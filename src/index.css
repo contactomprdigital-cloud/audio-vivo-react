@@ -1,3 +1,23 @@
+/* Colores de Sonido Vivo: vienen de style/style.css del Parcial 1. */
+:root {
+  --sv-naranjo: #d27300;
+  --sv-naranjo-oscuro: #a85a00;
+  --sv-crema: #ffe0b2;
+  --sv-fondo: #f4f6f8;
+  --sv-texto: #333333;
+}
+
+/* El botón principal de Bootstrap toma el naranjo de la tienda. */
+.btn-primary {
+  --bs-btn-bg: var(--sv-naranjo);
+  --bs-btn-border-color: var(--sv-naranjo);
+  --bs-btn-hover-bg: var(--sv-naranjo-oscuro);
+  --bs-btn-hover-border-color: var(--sv-naranjo-oscuro);
+  --bs-btn-active-bg: var(--sv-naranjo-oscuro);
+  --bs-btn-active-border-color: var(--sv-naranjo-oscuro);
+  --bs-btn-disabled-bg: var(--sv-naranjo);
+  --bs-btn-disabled-border-color: var(--sv-naranjo);
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,8 +26,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
-  color: #333333;
+  background-color: var(--sv-fondo);
+  color: var(--sv-texto);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -21,7 +41,7 @@ body {
 
 
 .cabecera {
-  background-color: #d27300;
+  background-color: var(--sv-naranjo);
   color: #ffffff;
   padding: 10px 20px;
 }

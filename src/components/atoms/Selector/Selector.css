@@ -1,0 +1,17 @@
+.selector-atom {
+  padding: 8px 16px;
+  border: 1px solid var(--sv-naranjo, #d27300);
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: var(--sv-texto, #333333);
+  font-weight: bold;
+  font-size: 0.95rem;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.selector-atom:focus {
+  border-color: var(--sv-naranjo-oscuro, #a85a00);
+  box-shadow: 0 0 0 2px rgba(210, 115, 0, 0.25);
+}
