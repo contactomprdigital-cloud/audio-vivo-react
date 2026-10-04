@@ -1,0 +1,12 @@
+/* Fila de tarjetas con scroll horizontal (viene de .categorias de carrusel.css). */
+.carrusel-categorias {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  overflow-x: auto;
+}
+
+.carrusel-categorias > * {
+  flex: 0 0 75%;
+  max-width: 250px;
+}
