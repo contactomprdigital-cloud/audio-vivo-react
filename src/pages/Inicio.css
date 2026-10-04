@@ -1,0 +1,33 @@
+.titulo-categorias {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.titulo-categorias h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.titulo-categorias h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #d27300;
+  border-radius: 2px;
+}
+
+.seccion-video {
+  margin-bottom: 40px;
+}
+
+.video-inicio {
+  max-width: 800px;
+  margin: 0 auto;
+}
