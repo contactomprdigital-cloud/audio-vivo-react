@@ -1,7 +1,6 @@
-import React from 'react'
 import './Selector.css'
 
-export default function Selector({ id, valor, opciones = [], onChange }) {
+export function Selector({ id, valor, opciones = [], onChange }) {
   const handleChange = (e) => {
     if (onChange) {
       onChange(e.target.value)
@@ -15,8 +14,8 @@ export default function Selector({ id, valor, opciones = [], onChange }) {
       onChange={handleChange}
       className="selector-atom"
     >
-      {opciones.map((opcion, index) => (
-        <option key={index} value={opcion.valor}>
+      {opciones.map((opcion) => (
+        <option key={opcion.valor} value={opcion.valor}>
           {opcion.texto}
         </option>
       ))}
