@@ -1,11 +1,14 @@
-import Button from "react-bootstrap/Button";
+import './Boton.css'
 
-function Boton({ children, tipo = "button", className = "" }) {
+export function Boton({ children, onClick, variante = 'comprar', tipo = 'button', deshabilitado = false }) {
   return (
-    <Button type={tipo} className={`btn-login ${className}`}>
+    <button
+      type={tipo}
+      className={`btn-${variante}`}
+      onClick={onClick}
+      disabled={deshabilitado}
+    >
       {children}
-    </Button>
-  );
+    </button>
+  )
 }
-
-export default Boton;

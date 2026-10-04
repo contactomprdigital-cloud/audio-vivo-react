@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Input from "../atoms/Input/Input";
-import Boton from "../atoms/Boton/Boton";
+import { Boton } from "../atoms/Boton/Boton";
 
 function Login() {
   const [correo, setCorreo] = useState("");
@@ -35,7 +35,7 @@ function Login() {
         />
       </Form.Group>
 
-      <Boton tipo="submit">Ingresar</Boton>
+      <Boton tipo="submit" variante="login">Ingresar</Boton>
     </Form>
   );
 }

@@ -1,14 +1,6 @@
 import './Precio.css'
+import { formatoPrecio } from '../../../utils/formatoPrecio'
 
-function Precio(props){
-
-    const precioFormateado = typeof props.precio === 'number'
-        ? `$${props.precio.toLocaleString('es-CL')}`
-        : props.precio;
-        
-    return(
-        <p className="precio fw-bold mb-0">{precioFormateado}</p>
-    );
+export function Precio({ valor }) {
+  return <p className="precio fw-bold mb-0">{formatoPrecio(valor)}</p>
 }
-
-export default Precio;
