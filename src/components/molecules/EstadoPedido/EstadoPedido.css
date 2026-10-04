@@ -1,0 +1,20 @@
+.estado-pedido {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+}
+
+.estado-paso {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background-color: #e9ecef;
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+.estado-paso-cumplido {
+  background-color: #d27300;
+  color: #ffffff;
+  font-weight: bold;
+}
