@@ -1,0 +1,10 @@
+.campo-texto:focus {
+  border-color: #d27300;
+  box-shadow: 0 0 0 2px rgba(210, 115, 0, 0.25);
+}
+
+/* Campo con error: borde rojo y fondo rosado (el rojo de los errores del login). */
+.campo-error {
+  border-color: #a3242f;
+  background-color: #f7e1e3;
+}

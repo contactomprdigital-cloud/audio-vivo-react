@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Form from "react-bootstrap/Form";
-import Input from "../atoms/Input/Input";
+import { CampoTexto } from "../atoms/CampoTexto/CampoTexto";
 import { Boton } from "../atoms/Boton/Boton";
 
 function Login() {
@@ -15,22 +15,22 @@ function Login() {
     <Form id="form-login" onSubmit={manejarEnvio}>
       <Form.Group className="mb-3" controlId="correo">
         <Form.Label>Correo electrónico</Form.Label>
-        <Input
+        <CampoTexto
           id="correo"
           tipo="email"
           valor={correo}
-          onChange={(e) => setCorreo(e.target.value)}
+          onChange={setCorreo}
           placeholder="ejemplo@correo.cl"
         />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="password">
         <Form.Label>Contraseña</Form.Label>
-        <Input
+        <CampoTexto
           id="password"
           tipo="password"
           valor={password}
-          onChange={(e) => setPassword(e.target.value)}
+          onChange={setPassword}
           placeholder="Mínimo 12 caracteres"
         />
       </Form.Group>
