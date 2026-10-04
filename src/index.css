@@ -99,21 +99,6 @@ body {
   color: #333333;
 }
 
-.btn-login {
-  width: 100%;
-  margin-top: 22px;
-  background-color: #d27300;
-  border-color: #d27300;
-  font-weight: bold;
-}
-
-.btn-login:hover,
-.btn-login:focus,
-.btn-login:active {
-  background-color: #b56300 !important;
-  border-color: #b56300 !important;
-}
-
 
 @media (max-width: 768px) {
   .cabecera-contenido {

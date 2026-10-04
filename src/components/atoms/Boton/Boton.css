@@ -1,0 +1,61 @@
+.btn-comprar {
+  background-color: #d27300;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: auto;
+}
+
+.btn-comprar:hover {
+  background-color: #b56300;
+}
+
+.btn-filtro {
+  background-color: #ffffff;
+  border: 1px solid #d27300;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #d27300;
+}
+
+.btn-filtro:hover {
+  background-color: #d27300;
+  color: #ffffff;
+}
+
+.btn-login {
+  width: 100%;
+  margin-top: 22px;
+  padding: 10px;
+  background-color: #d27300;
+  border: 1px solid #d27300;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-login:hover,
+.btn-login:focus,
+.btn-login:active {
+  background-color: #b56300 !important;
+  border-color: #b56300 !important;
+}
+
+/* Cualquier variante sin acción posible (por ejemplo, un producto sin stock). */
+.btn-comprar:disabled,
+.btn-filtro:disabled,
+.btn-login:disabled {
+  background-color: #cccccc;
+  border-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}

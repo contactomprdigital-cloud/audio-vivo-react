@@ -1,3 +1,4 @@
+import "./Boton.css";
 import Button from "react-bootstrap/Button";
 
 function Boton({ children, tipo = "button", className = "" }) {
